@@ -1,0 +1,11 @@
+# Core dependencies for playing Zork and building your LLM agent
+pexpect>=4.8.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# For LLM API integration (choose what you need)
+openai>=1.0.0
+
+# For Fic interpreter
+readchar>=4.0.0
+windows-curses>=2.3.0; sys_platform == 'win32'

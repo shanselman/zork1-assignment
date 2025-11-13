@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# Logs and output
+logs/
+*.log
+transcript_*.txt
+llm_queries_*.jsonl
+summary_*.json
+trace.txt
+full_log.txt
+commands.txt
+
+# Game saves
+*.sav
+
+# OS
+.DS_Store
+Thumbs.db
