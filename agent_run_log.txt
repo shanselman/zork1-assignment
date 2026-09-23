@@ -1,0 +1,102 @@
+Turn 1
+LLM Response: look
+Command: look
+Result:
+0  Turns:    0         West of House                                   Score:
+---
+Turn 2
+LLM Response: north
+Command: north
+Result:
+0  Turns:    1         North of House                                  Score:
+---
+Turn 3
+LLM Response: take lamp
+Command: take lamp
+Result:
+0  Turns:    2         North of House                                  Score:
+---
+Turn 1
+LLM Response: look
+I want to see the surroundings.
+Command: look
+Result:
+0  Turns:    0         West of House                                   Score:
+---
+Turn 2
+LLM Response: north
+Move toward the house to explore.
+Command: north
+Result:
+0  Turns:    1         North of House                                  Score:
+---
+Turn 3
+LLM Response: take lamp
+Pick up the lamp to illuminate dark rooms.
+Command: take lamp
+Result:
+0  Turns:    2         North of House                                  Score:
+---
+Turn 1
+LLM Response: look
+I want to see the surroundings.
+Command: look
+Result:
+0  Turns:    0         West of House                                   Score:
+---
+Turn 2
+LLM Response: north
+Move toward the house to explore.
+Command: north
+Result:
+0  Turns:    1         North of House                                  Score:
+---
+Turn 3
+LLM Response: take lamp
+Pick up the lamp to illuminate dark rooms.
+Command: take lamp
+Result:
+0  Turns:    2         North of House                                  Score:
+---
+Turn 1
+LLM Response: look
+I want to see the surroundings.
+Command: look
+Result:
+0  Turns:    0         West of House                                   Score:
+---
+Turn 2
+LLM Response: north
+Move toward the house to explore.
+Command: north
+Result:
+0  Turns:    1         North of House                                  Score:
+---
+Turn 3
+LLM Response: take lamp
+Pick up the lamp to illuminate dark rooms.
+Command: take lamp
+Result:
+0  Turns:    2         North of House                                  Score:
+---
+Turn 1
+LLM Response: look
+I want to see the surroundings.
+Command: look
+Result:
+0  Turns:    0         West of House                                   Score:
+---
+Turn 2
+LLM Response: north
+Move toward the house to explore.
+Command: north
+Result:
+0  Turns:    1         North of House                                  Score:
+---
+Turn 3
+LLM Response: take lamp
+Pick up the lamp to illuminate dark rooms.
+Command: take lamp
+Result:
+0  Turns:    2         North of House                                  Score:
+---

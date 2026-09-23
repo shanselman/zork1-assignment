@@ -11,8 +11,172 @@ import os
 import ctypes
 import struct
 import math
-import curses
-import curses.textpad
+import types
+
+# If the program is started without a controlling tty (for example when
+# run under pexpect.PopenSpawn on Windows), curses operations will fail
+# with Errno 22. Provide a minimal "no-curses" fallback when explicitly
+# requested via --no-curses or when stdin is not a tty. This fallback
+# implements the small subset of the curses/textpad API used by Fic so
+# the interpreter can run over pipes for automated testing.
+USE_NO_CURSES = ("--no-curses" in sys.argv) or (not sys.stdin.isatty())
+if USE_NO_CURSES:
+  # Informative diagnostic so runners can see which mode we're in
+  try:
+    sys.stdout.write("[fic.py] using no-curses fallback\n")
+    sys.stdout.flush()
+  except Exception:
+    pass
+  class _DummyAscii:
+    BEL = '\x07'
+
+  class _DummyTextpad:
+    class Textbox:
+      def __init__(self, win):
+        self.win = win
+
+      def edit(self, validator=None):
+        # Read a full line from stdin and return it (including newline)
+        try:
+          line = sys.stdin.readline()
+          if not line:
+            return ''
+          return line
+        except Exception:
+          return ''
+
+  class _DummyWindow:
+    def __init__(self):
+      self._y = 0
+      self._x = 0
+      self._maxy = 24
+      self._maxx = 80
+
+    def getmaxyx(self):
+      return (self._maxy, self._maxx)
+
+    def getyx(self):
+      return (self._y, self._x)
+
+    def move(self, y, x):
+      self._y = y
+      self._x = x
+
+    def addstr(self, *args, **kwargs):
+      # Support addstr(string) or addstr(y, x, string, attr)
+      if len(args) == 1:
+        s = args[0]
+      elif len(args) >= 3:
+        s = args[2]
+      else:
+        s = ''
+      try:
+        sys.stdout.write(str(s))
+        sys.stdout.flush()
+      except Exception:
+        pass
+
+    def subwin(self, h, w, y, x):
+      return _DummyWindow()
+
+    def touchwin(self):
+      return
+
+    def refresh(self):
+      return
+
+    def clear(self):
+      return
+
+    def idlok(self, val):
+      return
+
+    def scrollok(self, val):
+      return
+
+    def keypad(self, val):
+      return
+
+    def bkgdset(self, ch, attr=None):
+      return
+
+    def clrtoeol(self):
+      return
+
+    def getkey(self):
+      # Read one character (blocking); return as string similar to curses.getkey
+      ch = sys.stdin.read(1)
+      if not ch:
+        return ''
+      return ch
+
+    def getch(self):
+      ch = sys.stdin.read(1)
+      if not ch:
+        return -1
+      return ord(ch[0])
+
+    def timeout(self, t):
+      # No-op for dummy
+      return
+
+    def move(self, y, x):
+      self._y = y
+      self._x = x
+
+  # Replace parts of the curses/textpad API used by the file
+  curses = types.SimpleNamespace()
+  curses.textpad = _DummyTextpad
+  curses.ascii = _DummyAscii
+  # Minimal attributes used by the code
+  curses.A_REVERSE = 0
+  curses.A_BOLD = 0
+  curses.A_ITALIC = 0
+  curses.COLOR_BLACK = 0
+  curses.COLOR_RED = 1
+  curses.COLOR_GREEN = 2
+  curses.COLOR_YELLOW = 3
+  curses.COLOR_BLUE = 4
+  curses.COLOR_MAGENTA = 5
+  curses.COLOR_CYAN = 6
+  curses.COLOR_WHITE = 7
+  # Provide an initscr that returns a dummy window
+  def _initscr():
+    return _DummyWindow()
+  curses.initscr = _initscr
+  # Provide minimal wrappers used by the code
+  def _start_color():
+    return
+  def _noecho():
+    return
+  def _cbreak():
+    return
+  def _endwin():
+    return
+  curses.start_color = _start_color
+  curses.noecho = _noecho
+  curses.cbreak = _cbreak
+  curses.endwin = _endwin
+  # Add stubs for color initialization and pairing functions
+  def _init_pair(idx, fore, back):
+    return
+  def _color_pair(idx):
+    return 0
+  def _nocbreak():
+    return
+  def _echo():
+    return
+  curses.init_pair = _init_pair
+  curses.color_pair = _color_pair
+  curses.nocbreak = _nocbreak
+  curses.echo = _echo
+  # Make the dummy available as module-like variable
+  # Note: other names like curses.textpad.Textbox are present above
+else:
+  # Use real curses (only when stdin is a TTY)
+  import curses
+  import curses.textpad
+
 from enum import Enum
 
 # Enums
@@ -3421,7 +3585,9 @@ if __name__ == "__main__":
     main()
   finally:
     # Try and save the terminal from a hideous fate!
-    curses.nocbreak()
-    curses.echo()
-    stdscr.keypad(False)
+    # Only call real curses functions if we're not in no-curses fallback mode
+    if not USE_NO_CURSES:
+      curses.nocbreak()
+      curses.echo()
+      stdscr.keypad(False)
     curses.endwin()

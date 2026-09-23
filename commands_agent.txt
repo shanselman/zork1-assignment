@@ -1,0 +1,1029 @@
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+look
+north
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+open mailbox
+south
+look
+north
+take lamp
+look
+north
+take lamp
+look
+north
+take lamp
+look
+north
+take lamp
+look
+north
+take lamp
+look
+north
+take lamp
+look
+north
+take lamp
